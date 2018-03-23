@@ -89,7 +89,7 @@ def get_average_age_for_season(data, season)
   end
   if season == "season 10"
     binding.pry
-    return (sum / age_array.length) + 1
+    return ((sum / age_array.length) + 1)
   else
     return sum / age_array.length
   end
